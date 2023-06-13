@@ -1,0 +1,22 @@
+{
+  "name": "skilluptogether",
+  "version": "1.0.0",
+  "description": "We'r learning with everybody!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vomirate/Skill-Up-Together.git"
+  },
+  "author": "Vomirate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vomirate/Skill-Up-Together/issues"
+  },
+  "homepage": "https://github.com/Vomirate/Skill-Up-Together#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
