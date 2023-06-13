@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------------HEADER------------------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.header a img{
+    padding: 10px;
+    width:300px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+.menu li{
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.create-button{
+    padding: 9px 16px 9px 16px;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 19px;
+}
+.setCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.addPadding{
+    padding-right: 30px;
+}
+.user-icon{
+    margin-left: 50px;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+/*---------------------------search bar----------------------------*/
+
+.search-bar{
+    background-color: grey;
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input{
+    height: 50px;
+    width: 550px;
+    border-radius: 45px 0 0 45px;
+}
+.search-bar button{
+    height: 50px;
+    width:90px;
+    border-radius: 0 45px 45px 0;
+}
+
+/*---------------------fltercontainer-------------------*/
+
+/*---------------------adBox-------------------*/
+
+h3, h6{
+    padding: 5px;
+    margin: 0;
+}
+.cart{
+    background-color: red;
+    padding: 20px;
+    width: fit-content;
+}
+.setInline{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.text-align{
+    margin-left: 20px;
+
+}
